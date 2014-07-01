@@ -2,6 +2,10 @@
   "name": "protractor-linkuisref-locator",
   "version": "0.0.0",
   "description": "A protractor locator that finds anchor elements by their ui-sref attribute.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crzrcn/protractor-linkuisref-locator"  
+  },
   "main": "index.js",
   "directories": {
     "test": "tests"
