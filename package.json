@@ -1,0 +1,29 @@
+{
+  "name": "protractor-linkuisref-locator",
+  "version": "0.0.0",
+  "description": "A protractor locator that finds anchor elements by their ui-sref attribute.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node app/server.js & ./node_modules/protractor/bin/webdriver-manager update && ./node_modules/protractor/bin/protractor specs/protractorConf.js && kill `lsof -i tcp:3000 -F p | cut -c2-`"
+  },
+  "keywords": [
+    "protractor",
+    "uisref",
+    "anchor",
+    "locator",
+    "link",
+    "links"
+  ],
+  "devDependencies": {
+    "protractor": "^0.23.1",
+    "express": "4.4.x"
+  },
+  "engines": {
+    "node": ">= 10.29"
+  },
+  "author": "Fernando Martinez @crzrcn <fernanlink@gmail.com>",
+  "license": "MIT"
+}
