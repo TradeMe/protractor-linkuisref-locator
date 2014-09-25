@@ -7,9 +7,18 @@
   </script>
 </head>
 <body ng-app='protractorLinkuisrefLocator'>
-  <a ui-sref='users.index'></a>
-  <div id='parent'>
+  <section>
+    <a ui-sref='users.index'></a>
+    <div id='parent'>
+      <a ui-sref='users.show({userId: 1})'></a>
+    </div>
     <a ui-sref='users.show({userId: 1})'></a>
-  </div>
-  <a ui-sref='users.show({userId: 1})'></a>
+  </section>
+  <section>
+    <a data-ui-sref='widgets.index'></a>
+    <div id='widgets-parent'>
+      <a data-ui-sref='widgets.show({widgetId: 1})'></a>
+    </div>
+    <a data-ui-sref='widgets.show({widgetId: 1})'></a>
+  </section>
 </body>
